@@ -8,6 +8,8 @@ Kalliope's documentation: https://kalliope-project.github.io/
 
 A Kalliope Neuron to launch and stop radio stations.
 
+Made from Kalliope neuron ambient_sound, available here: https://github.com/kalliope-project/kalliope_neuron_ambient_sound
+
 ## Installation
 
 Install the neuron into your resource directory
