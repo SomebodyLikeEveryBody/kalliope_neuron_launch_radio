@@ -32,7 +32,7 @@ kalliope install --git-url https://github.com/SomebodyLikeEveryBody/kalliope_neu
 | Name             | Description                             | Type   | sample                                                   |
 |------------------|-----------------------------------------|--------|----------------------------------------------------------|
 | radio_url    | The URL of the played radio               | string | 'http://stream.radioneo.org:8000/;stream/1'        |
-| radio_name | The name of the radio played | string | 'Radio Néo' |
+| radio_name | The given name of the played radio | string | 'Radio Néo' |
 
 ## Synapses example
 
