@@ -23,6 +23,7 @@ kalliope install --git-url https://github.com/SomebodyLikeEveryBody/kalliope_neu
 |-------------------|----------|--------|------------------|---------------------|-----------------------------------------------------------------------------|
 | state             | YES      | string |                  | "on", "off"         | Target state of the radio player.                                          |
 | radio_url        | NO/YES       | string |                  | working radio_url available on internet | Need to be set if the State is "on".  |
+| radio_name        | NO/YES       | string |                  | name you want to give to the played radio | Need to be set if the State is "on".  |
 | mplayer_path      | NO       | string | /usr/bin/mplayer |                     | Path to mplayer binary. By default /usr/bin/mplayer on Debian family system |
 | auto_stop_minutes | NO       | int    |                  | Integer > 1         | Number of minutes before Kalliope stop automatically the background sound   |
 
