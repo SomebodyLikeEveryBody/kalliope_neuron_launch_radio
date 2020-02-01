@@ -1,0 +1,13 @@
+---
+  name: "launch_radio"
+  type: "neuron"
+  author: "SomebodyLikeEverybody and Robert0 forked from Kalliope project team's ambient_sound"
+
+  kalliope_supported_version:
+    - 0.4
+    - 0.5
+
+  tags:
+    - "radio"
+    - "chill"
+    - "web radio"
