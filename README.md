@@ -22,7 +22,7 @@ kalliope install --git-url https://github.com/SomebodyLikeEveryBody/kalliope_neu
 | parameter         | required | type   | default          | choices             | comment                                                                     |
 |-------------------|----------|--------|------------------|---------------------|-----------------------------------------------------------------------------|
 | state             | YES      | string |                  | "on", "off"         | Target state of the radio player.                                          |
-| radio_url        | NO       | string |                  | working radio_url available on internet | Need to be set if the State is "on".  |
+| radio_url        | NO/YES       | string |                  | working radio_url available on internet | Need to be set if the State is "on".  |
 | mplayer_path      | NO       | string | /usr/bin/mplayer |                     | Path to mplayer binary. By default /usr/bin/mplayer on Debian family system |
 | auto_stop_minutes | NO       | int    |                  | Integer > 1         | Number of minutes before Kalliope stop automatically the background sound   |
 
@@ -30,8 +30,8 @@ kalliope install --git-url https://github.com/SomebodyLikeEveryBody/kalliope_neu
 
 | Name             | Description                             | Type   | sample                                                   |
 |------------------|-----------------------------------------|--------|----------------------------------------------------------|
-| playing_sound    | The current sound played                | string | fireplace                                                |
-| available_sounds | List of available sound in the database | list   | ['fireplace', 'heavy-rain', 'tropical-beach', 'seaside'] |
+| radio_url    | The radio's url played                | string | 'http://stream.radioneo.org:8000/;stream/1'        |
+| radio_name | The name of the radioplayed | string | 'Radio Néo' |
 
 ## Synapses example
 
