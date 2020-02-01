@@ -1,4 +1,4 @@
-# -kalliope_neuron_launch_radio
+# Kalliope neuron launch_radio
 A Kalliope Neuron to launch and stop radio stations
 Kalliope Project is available here: https://github.com/kalliope-project
 Kalliope's documentation: https://kalliope-project.github.io/
