@@ -37,7 +37,7 @@ kalliope install --git-url https://github.com/SomebodyLikeEveryBody/kalliope_neu
 
 Here is a launchRadioSynapses.yml example:
 
-```
+```yaml
 - name: "stop-radio-synapse"
   signals:
     - order: "coupe la radio"
@@ -240,4 +240,3 @@ Here is a launchRadioSynapses.yml example:
     - say:
         message: "Radio France Musique lancée."
 ```
-
